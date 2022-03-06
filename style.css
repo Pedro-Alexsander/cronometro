@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.timer{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 60vh;
+   
+}
+.projeto{
+    background-color: grey;
+    padding: 30px;
+}
