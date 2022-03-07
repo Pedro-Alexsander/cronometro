@@ -29,14 +29,16 @@ body{
     border-radius: 10px;
     border-width: 2px;
     border-color: white;
+    border-style: solid;
 }
 .btn:hover{
     border-color: black;
 }
 .tempo{
+    display: flex;
+    justify-content: center;
  font-size: 40px;
  font-weight: bold;
- margin-left: 34%;
  color: whitesmoke;
 }
 .parar{
@@ -63,4 +65,17 @@ body{
 }
 .zerar:hover{
     background-color: darkorange;
+}
+
+@media (max-width: 300px) {
+    .btn{
+        display: flex;
+    }
+    .tempo{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+       
+    }
 }
