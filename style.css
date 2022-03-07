@@ -26,8 +26,13 @@ body{
     margin-top: 15px;
     margin-left: 12px;
     width: 80px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: white;
 }
-
+.btn:hover{
+    border-color: black;
+}
 .tempo{
  font-size: 40px;
  font-weight: bold;
@@ -40,8 +45,7 @@ body{
     font-weight: bold;
 }
 .parar:hover{
-    background: darkred;
-    
+    background: darkred;  
 }
 
 .iniciar{
