@@ -52,3 +52,11 @@ body{
 .iniciar:hover{
     background-color: darkgreen;
 }
+.zerar{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+.zerar:hover{
+    background-color: darkorange;
+}
