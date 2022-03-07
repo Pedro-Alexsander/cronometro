@@ -43,3 +43,12 @@ body{
     background: darkred;
     
 }
+
+.iniciar{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.iniciar:hover{
+    background-color: darkgreen;
+}
