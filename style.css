@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: black;
 }
 .timer{
     display: grid;
@@ -13,16 +17,29 @@
 .projeto{
     background-color: grey;
     padding: 30px;
+    
 }
 
 .btn{
+    
     padding: 10px;
     margin-top: 15px;
     margin-left: 12px;
     width: 80px;
 }
+
 .tempo{
  font-size: 40px;
  font-weight: bold;
  margin-left: 34%;
+ color: whitesmoke;
+}
+.parar{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.parar:hover{
+    background: darkred;
+    
 }
