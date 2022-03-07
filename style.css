@@ -68,8 +68,17 @@ body{
 }
 
 @media (max-width: 300px) {
+    .timer{
+        height: 80vh;
+    }
+    .projeto{
+        padding: 15px;
+        
+    }
     .btn{
         display: flex;
+        margin-left: 25%;
+    
     }
     .tempo{
         padding: 0;
