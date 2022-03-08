@@ -1,8 +1,8 @@
-var min = 0;
-var seg = 0;
-var mili = 0;
-var tempo = 1000;
-var cron;
+let min = 0;
+let seg = 0;
+let mili = 0;
+let tempo = 1000;
+let cron;
 
 function iniciar(){
     cron = setInterval(function(){
@@ -21,4 +21,8 @@ function iniciar(){
         let formato = (min<10 ? "0"+ min : min) + ":" + (seg<10 ? "0" + seg : seg) + ":" + ( mili < 10 ? "0" + mili : mili)
         document.getElementById("formato").innerText = formato;
     },tempo)
+}
+
+function parar(){
+    clearInterval(cron)
 }
