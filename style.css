@@ -67,7 +67,7 @@ body{
     background-color: darkorange;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 450px) {
     .timer{
         height: 80vh;
     }
