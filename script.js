@@ -1,7 +1,7 @@
 let min = 0;
 let seg = 0;
 let mili = 0;
-let tempo = 1;
+let tempo = 1000/60;
 let cron;
 
 function iniciar(){
