@@ -1,7 +1,7 @@
 let min = 0;
 let seg = 0;
 let mili = 0;
-let tempo = 1000;
+let tempo = 1;
 let cron;
 
 function iniciar(){
@@ -25,4 +25,11 @@ function iniciar(){
 
 function parar(){
     clearInterval(cron)
+}
+function zerar(){
+    clearInterval(cron)
+     min = 0;
+    seg = 0;
+    mili = 0;
+    document.getElementById("formato").innerText = "00:00:00"
 }
